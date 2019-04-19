@@ -15,6 +15,8 @@ public class Book {
     private String isbn;
     private String publisher;
 
+    //This is a test to commit
+
     @ManyToMany
     @JoinTable(name = "author_book", joinColumns = @JoinColumn(name = "book_id"),
     inverseJoinColumns = @JoinColumn(name = "author_id"))
